@@ -31,7 +31,7 @@ Database and SQL for Data Science with Python.- Coursera Course.
 
 # SELECT statement with WHERE
 <p>The WHERE clause is used to restricting Results. Always requires a predicate which Evaluates to True, False or Unknown. Used in the search condition of Where clause. </p>
-<p><b>SELECT with WHERE clause Operators</b></p>
+<p><b>SELECT with WHERE clause Comparison Operators</b></p>
 
 ![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/76015fb5-9144-498a-8271-8ef3ea4b92d5)
 
