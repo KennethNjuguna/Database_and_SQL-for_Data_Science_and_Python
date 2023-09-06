@@ -21,3 +21,6 @@ Database and SQL for Data Science with Python.- Coursera Course.
         <li>Update data in a table.</li>
         <li>Delete data from a table.</li>
 </ul></p>
+
+# SELECT statement
+<p>Retrieving data from the table. To see the data within the table and retrieve the rows we use the SELECT statement.<b>SELECT STATEMENT</b>-It is a data manipulation-DML statement used to read and modify data.</p>
