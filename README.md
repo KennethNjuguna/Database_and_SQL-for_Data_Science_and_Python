@@ -22,5 +22,13 @@ Database and SQL for Data Science with Python.- Coursera Course.
         <li>Delete data from a table.</li>
 </ul></p>
 
+![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/8e78e55d-6f15-4cc7-a4ed-729051ed64c4)
+
+
 # SELECT statement
 <p>Retrieving data from the table. To see the data within the table and retrieve the rows we use the SELECT statement.<b>SELECT STATEMENT</b>-It is a data manipulation-DML statement used to read and modify data.</p>
+<p>Always understand that SELECT the order of the result set depends on the order of columns in the query.</p>
+
+# SELECT statement with WHERE
+<p>The WHERE clause is used to restricting Results. Always requires a predicate which Evaluates to True, False or Unknown. Used in the search condition of Where clause. </p>
+<p><b>SELECT with WHERE clause Operators</b></p>
