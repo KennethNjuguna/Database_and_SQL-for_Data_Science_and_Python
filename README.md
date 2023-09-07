@@ -51,6 +51,7 @@ Database and SQL for Data Science with Python.- Coursera Course.
 <p><b><i>Select * from MEDALS where YEAR = 2018 LIMIT 5.</i></b></p>
 
 # Examples of the special expressions with SELECT statement.
+
 # COUNT
 <p><b><i>Suppose we want to count the number of records or rows of the “FilmLocations” table.</i></b></p> 
 <p><b><i>SELECT COUNT(*) FROM FilmLocations;</i>.</b></p>
