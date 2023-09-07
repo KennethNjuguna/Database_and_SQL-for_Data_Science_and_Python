@@ -41,7 +41,7 @@ Database and SQL for Data Science with Python.- Coursera Course.
 <p><b>COUNT</b>- This is an inbuilt database that retrieves the number of rows that match the query criteria. For example, get the total number of rows in a given table,</p>
 <p>select COUNT(*) from tablename.</p> 
 <p></p>Let's say you create a table called MEDALS which has a column called COUNTRY, and you want to retrieve the number of rows where the medal recipient is from Canada. You can issue a query like this:</p>
-<p>Select COUNT(COUNTRY) from MEDALS where COUNTRY='CANADA.' </p>
+<p><b><i>Select COUNT(COUNTRY) from MEDALS where COUNTRY='CANADA.'  </i></b></p>
 
 <p><b>DISTINCT</b>-It is used to remove duplicate values in a dataset. For example retrieve unique values from a column.</p>
 <p>Example, retrieve the list of unique countries that received gold medals. That is, removing all duplicate values of the same country.</p>
