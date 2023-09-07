@@ -35,5 +35,8 @@ Database and SQL for Data Science with Python.- Coursera Course.
 
 ![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/76015fb5-9144-498a-8271-8ef3ea4b92d5)
 
+# Useful expressions used the query SELECT- COUNT, DISTINCT,LIMIT
+
+
 
 
