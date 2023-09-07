@@ -50,6 +50,21 @@ Database and SQL for Data Science with Python.- Coursera Course.
 <p><b>LIMIT</b>-Restricting the number of rows in a table. <b>Select * from tablename LIMIT 10.</b> This can be very useful to examine the results set by looking at just a few rows instead of retrieving the entire result set which may be very large. Example, retrieve just a few rows in the MEDALS table for a particular year.</p>
 <p><b><i>Select * from MEDALS where YEAR = 2018 LIMIT 5.</i></b></p>
 
+# Examples of the special expressions with SELECT statement.
+# COUNT
+<p><b><i>Suppose we want to count the number of records or rows of the “FilmLocations” table.</i></b></p> 
+<p><b><i>SELECT COUNT(*) FROM FilmLocations;</i>.</b></p>
+
+<p><b><i>now we want to count the number of locations of the films. But we also want to restrict the output resultset in such a way that we only retrieve the number of locations of the films written by a certain writer.</i></b></p> 
+<p><b><i>SELECT COUNT(Locations) FROM FilmLocations WHERE Writer="James Cameron";</i>.</b></p>
+
+# DISTINCT
+<p><b><i>1. we want to retrieve the title of all films in the table in such a way that duplicates will be discarded in the output resultset.</i></b></p>
+<p><b><i>SELECT DISTINCT Title FROM FilmLocations;</i>.</b></p>
+
+<p><b><i>we want to retrieve the count of release years of the films produced by a specific company in such a way that duplicate release years of those films will be discarded in the count.</i></b></p>
+<p><b><i>SELECT COUNT(DISTINCT ReleaseYear) FROM FilmLocations WHERE ProductionCompany="Warner Bros. Pictures";</i></b></p>
+
 
 
 
