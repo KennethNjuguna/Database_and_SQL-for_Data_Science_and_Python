@@ -45,10 +45,11 @@ Database and SQL for Data Science with Python.- Coursera Course.
 
 <p><b>DISTINCT</b>-It is used to remove duplicate values in a dataset. For example retrieve unique values from a column.</p>
 <p>Example, retrieve the list of unique countries that received gold medals. That is, removing all duplicate values of the same country.</p>
-<p><b>Select DISTINCT COUNTRY from MEDALS where MEDALTYPE = 'GOLD'.</b></p>
+<p><b><i>Select DISTINCT COUNTRY from MEDALS where MEDALTYPE = 'GOLD'.</i></b></p>
 
 <p><b>LIMIT</b>-Restricting the number of rows in a table. <b>Select * from tablename LIMIT 10.</b> This can be very useful to examine the results set by looking at just a few rows instead of retrieving the entire result set which may be very large. Example, retrieve just a few rows in the MEDALS table for a particular year.</p>
 <p><b><i>Select * from MEDALS where YEAR = 2018 LIMIT 5.</i></b></p>
+
 
 
 
