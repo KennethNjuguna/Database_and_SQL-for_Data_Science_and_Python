@@ -38,6 +38,19 @@ Database and SQL for Data Science with Python.- Coursera Course.
 
 # Useful expressions used the query SELECT- COUNT, DISTINCT,LIMIT
 
+<p><b>COUNT</b>- This is an inbuilt database that retrieves the number of rows that match the query criteria. For example, get the total number of rows in a given table,</p>
+<p>select COUNT(*) from tablename.</p> 
+<p></p>Let's say you create a table called MEDALS which has a column called COUNTRY, and you want to retrieve the number of rows where the medal recipient is from Canada. You can issue a query like this:</p>
+<p>Select COUNT(COUNTRY) from MEDALS where COUNTRY='CANADA.' </p>
+
+<p><b>DISTINCT</b>-It is used to remove duplicate values in a dataset. For example retrieve unique values from a column.</p>
+<p>Example, retrieve the list of unique countries that received gold medals. That is, removing all duplicate values of the same country.</p>
+<p><b>Select DISTINCT COUNTRY from MEDALS where MEDALTYPE = 'GOLD'.</b></p>
+
+<p><b>LIMIT</b>-Restricting the number of rows in a table. <b>Select * from tablename LIMIT 10.</b> This can be very useful to examine the results set by looking at just a few rows instead of retrieving the entire result set which may be very large. Example, retrieve just a few rows in the MEDALS table for a particular year.</p>
+<p><b><i>Select * from MEDALS where YEAR = 2018 LIMIT 5.</i></b></p>
+
+
 
 
 
