@@ -99,6 +99,20 @@ Database and SQL for Data Science with Python.- Coursera Course.
        
 <p>The rows to be removed are specified in the WHERE condition. Based on the author entity example, we want to delete the rows for AUTHOR_ID A2 and A3. Let's look at an example. DELETE FROM AUTHOR WHERE AUTHOR_ID IN ('A2','A3'). Note that if you do not specify the WHERE clause, all the rows in the table will be removed.</p>
 
+# INSERT Statement
+
+![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/8c3d21a2-ab9c-4825-9bb5-df0230af6a90)
+
+<p>1. Insert a new instructor record with id 4 for Sandip Saha who lives in Edmonton, CA into the “Instructor” table.</p>
+<p><b><i>INSERT INTO Instructor(ins_id, lastname, firstname, city, country)
+VALUES(4, 'Saha', 'Sandip', 'Edmonton', 'CA');</i></b></p>
+
+<p>2. Insert two new instructor records into the “Instructor” table. First record with id 5 for John Doe who lives in Sydney, AU. Second record with id 6 for Jane Doe who lives in Dhaka, BD.</p>
+<p><b><i>INSERT INTO Instructor(ins_id, lastname, firstname, city, country)
+VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i></b></p>
+
+
+
 
 
 
