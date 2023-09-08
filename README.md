@@ -111,6 +111,30 @@ VALUES(4, 'Saha', 'Sandip', 'Edmonton', 'CA');</i></b></p>
 <p><b><i>INSERT INTO Instructor(ins_id, lastname, firstname, city, country)
 VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i></b></p>
 
+# UPDATE Statement
+
+![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/e5947cbb-6ea4-40c7-8c48-ec9a0d3b10a0)
+
+<p> 1.Update the city for Sandip to Toronto. </p>
+<p><b><i>UPDATE Instructor</i></b></p>
+<p><b><i>SET city='Toronto'</i></b></p> 
+<p><b><i>WHERE firstname="Sandip"; </i></b></p>
+
+<p>We want to update multiple columns of an existing row of the table.</p>
+<p> 2.Update the city and country for Doe with id 5 to Dubai and AE respectively.</p>
+<p><b><i>UPDATE Instructor</i></b></p>
+<p><b><i>SET city='Dubai', country='AE' </i></b></p> 
+<p><b><i>WHERE ins_id=5;</i></b></p>
+
+# DELETE
+
+<p>1. We want to remove a row from the table.</p>
+<p>Remove the instructor record of Doe whose id is 6.</p>
+<p><b><i>DELETE FROM instructor</i></b></p>
+<p><b><i>WHERE ins_id = 6;</i></b></p>
+
+
+
 
 
 
