@@ -76,6 +76,10 @@ Database and SQL for Data Science with Python.- Coursera Course.
 <p><b><i>3. Retrieve the next 3 film names distinctly after first 5 films released in 2015.</i></b></p>
 <p><b><i>SELECT DISTINCT Title FROM FilmLocations WHERE ReleaseYear=2015 LIMIT 3 OFFSET 5;</i></b></p>
 
+# INSERT Statement
+<p><b>The INSERT statement</b> is used to add new rows to a table. The INSERT statement is one of the data manipulation language statements.The <b>syntax of the INSERT statement</b> looks like this, insert into table name, column name, values. In this statement, table name identifies the table, the column name list identifies each column in the table, and the values clause specifies the data values to be added to the columns in the table.</p>
+
+
 
 
 
