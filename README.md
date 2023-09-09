@@ -81,6 +81,7 @@ Database and SQL for Data Science with Python.- Coursera Course.
 
 # UPDATE, DELETE Statement
 <p>After a table is created and populated with data, the data in a table can be altered with the UPDATE statement. The UPDATE statement is one of the data manipulation language or DML statements. DML statements are used to read and modify data.</p>
+
 # UPDATE
 <p>After a table is created and populated with data, the data in a table can be altered with the <b>UPDATE statement.</b> The UPDATE statement is one of the data manipulation language or DML statements. DML statements are used to read and modify data. Based on the author entity example, we created the table using the entity name Author and the entity attributes as the columns of the table. Rows were added to the Author table to populate the table. </p>
 <p>Sometime later, you want to alter the data in the table. To alter or modify the data in the Author table, we use the UPDATE statement. The syntax of the UPDATE statement looks like this:-
@@ -128,10 +129,22 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 
 # DELETE
 
+![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/02f1b22c-0d20-404e-83d0-83305d512f82)
+
 <p>1. We want to remove a row from the table.</p>
 <p>Remove the instructor record of Doe whose id is 6.</p>
 <p><b><i>DELETE FROM instructor</i></b></p>
 <p><b><i>WHERE ins_id = 6;</i></b></p>
+
+<p><b>Summary & Highlights</b></p>
+<p><ul><li>You can use Data Manipulation Language (DML) statements to read and modify data.</li> 
+       <li>The search condition of the WHERE clause uses a predicate to refine the search.</li>  
+       <li>COUNT, DISTINCT, and LIMIT are expressions that are used with SELECT statements.</li>  
+       <li>INSERT, UPDATE, and DELETE are DML statements for populating and changing tables.</li> </ul></p>
+       
+# Introduction to Relational Databses and Tables.
+
+
 
 
 
