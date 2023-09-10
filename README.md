@@ -143,7 +143,10 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
        <li>INSERT, UPDATE, and DELETE are DML statements for populating and changing tables.</li> </ul></p>
        
 # Introduction to Relational Databses and Tables.
-
+<p>Relational Model</p>
+<p><ul><li>Most used data model.</li>
+       <li>Allows data indepedence</li>
+       <li>Allows data indepedence</li></ul></p>
 
 
 
