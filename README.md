@@ -158,10 +158,16 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 
 <p><ul><li>For example in the entity above 'Student' it has the attributes Firstname, Lastname age ETC</li></ul></p>
 
-#Mapping Entity Diagrams to Tables.
+# Mapping Entity Diagrams to Tables.
 <p><ul><li>Entities becomes tables.</li>
        <li>Attributes get translated into columns</li>
        <li>Each attribute has a data value made of characters, numbers or currency.</li></ul></p>
+
+<p>Each table will be given a primary key which is a unique attribute in each table. Defines relationship to avoid duplications</p>
+<p><b>Foreign Key</b> some tables may have primary keys linked to other tables.</p>
+
+<p>Summary:-</p>
+<p><ul><li></li></ul></p>
 
 
 
