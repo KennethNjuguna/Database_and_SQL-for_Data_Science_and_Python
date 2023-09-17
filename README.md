@@ -146,7 +146,7 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 <p>Relational Model</p>
 <p><ul><li>Most used data model.</li>
        <li>Allows data indepedence</li>
-       <li>Allows data indepedence</li></ul></p>
+       <li>Data is stored in databases.</li></ul></p>
 
 
 
