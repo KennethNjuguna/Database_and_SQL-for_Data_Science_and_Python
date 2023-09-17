@@ -167,7 +167,35 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 <p><b>Foreign Key</b> some tables may have primary keys linked to other tables.</p>
 
 <p>Summary:-</p>
-<p><ul><li></li></ul></p>
+<p><ul><li>The key advantage of the relational model is data indepedence.</li>
+       <li>Entities are indepedent objects which have attributes.</li>
+       <li>Entities map to Tables in a Relational Database.</li>
+       <li>Atrributes map to Columns in a table.</li>
+       <li>Common data types include characters,numbers and dates/times.</li>
+       <li>A primary Key uniquely identifies a specific row in a table.</li>
+</ul></p>
+
+# Types of SQL statements (DDL vs. DML)
+
+<p>SQL statements are into types DDL and DML</p>
+<p><b>DDL (Data Definition Language) statements: They define, change, or drop data.</b></p>
+<p>COMMON DDL</p>
+<p><ul><li>CREATE- used to create tables and define columns</li>
+       <li>ALTER- used to alter tables addding, deleting columns within a table.</li>
+       <li>TRUNCATE-used to deleting data in a table and not table itself. </li>
+       <li>DROP- used to deleting tables within a database</li>
+</ul></p>
+
+<p>DML (Data Manipulation Language) statements used to read and modify data. These are also referred to as CRUD operations (<b><h2>Create, Read, Update & Delete rows</b></h2>h2></p>
+<p>COMMON DML</p>
+
+<p><ul><li>INSERT- used to insert a row or rows into a table</li>
+       <li>SELECT- used to select or read rows within a table.</li>
+       <li>UPDATE-used to edit rows or row in a table. </li>
+       <li>DELETE- used to remove or delete a row or rows from a table.</li>
+</ul></p>
+
+
 
 
 
