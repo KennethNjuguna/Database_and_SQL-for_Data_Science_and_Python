@@ -178,7 +178,7 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 # Types of SQL statements (DDL vs. DML)
 
 <p>SQL statements are into types DDL and DML</p>
-<p><b>DDL (Data Definition Language) statements: They define, change, or drop data.</b></p>
+<p><b>DDL (Data Definition Language) statements: They define, change, or drop data, Objects or tables.</b></p>
 <p>COMMON DDL</p>
 <p><ul><li>CREATE- used to create tables and define columns</li>
        <li>ALTER- used to alter tables addding, deleting columns within a table.</li>
