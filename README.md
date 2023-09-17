@@ -146,7 +146,30 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 <p>Relational Model</p>
 <p><ul><li>Most used data model.</li>
        <li>Allows data indepedence</li>
-       <li>Data is stored in databases.</li></ul></p>
+       <li>Data is stored in Tables.</li></ul></p>
+
+![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/b978da9a-38e4-466f-8126-57226dee96e9)
+
+# ENTITY-Relationship Model
+<p><ul><li>Used as a tool to design relational databases.</li>
+       <li>Entities have attributes within the databases which tell more about an entity.</li></ul></p>
+
+![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/bc7dee11-2adb-4671-b4dc-e3418718028e)
+
+<p><ul><li>For example in the entity above 'Student' it has the attributes Firstname, Lastname age ETC</li></ul></p>
+
+#Mapping Entity Diagrams to Tables.
+<p><ul><li>Entities becomes tables.</li>
+       <li>Attributes get translated into columns</li>
+       <li>Each attribute has a data value made of characters, numbers or currency.</li></ul></p>
+
+
+
+
+
+
+
+
 
 
 
