@@ -224,8 +224,11 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 <p><i>)</i></p>
 
 # ALTER, DROP, and TRUNCATE Tables
-<p><b></b></p>
 
+<p><ul><li>Add or remove columns.</li>
+       <li>Modify the data type of Columns</li>
+       <li>Add or remove keys.</li>
+       <li>Add or remove constraints.</li></ul></p>
 
 
 
