@@ -200,12 +200,12 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 <p><h2>Create table</h2></p>
 <p>Most commonly used DDL statement.</p>
 <p>Syntax: CREATE TABLE <i>table_name</i></p>
-<p><i>(</i></p>
-<p><i>column_name_1 datatype optional parameters,</i></p>
-<p><i>column_name_2 datatype,</i></p>
-<p>...</p>
-<p><i>column_name_n datatype</i></p>
-<p>)</p>
+       <p><i>(</i></p>
+       <p><i>column_name_1 datatype optional parameters,</i></p>
+       <p><i>column_name_2 datatype,</i></p>
+       <p>...</p>
+       <p><i>column_name_n datatype</i></p>
+       <p>)</p>
 
 <p><b>CREATE A TABLE FOR PROVINCES</b></p>
 <p><i>CREATE TABLE provinces(</i></p>
@@ -213,7 +213,18 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 <p><i>name varchar(24)</i></p>
 <p>)</p>
 
+<p><b>Create a table called Author</b></p>
+<p><i>CREATE TABLE author (</i></p>
+<p><i>author_id CHAR(2) PRIMARY KEY NOT NULL,</i></p>
+<p><i>lastname VARCHAR(15) NOT NULL,</i></p>
+<p><i>firstnamename VARCHAR(15) NOT NULL,</i></p>
+<p><i>email VARCHAR(40) NOT NULL,</i></p>
+<p><i>city VARCHAR(15),</i></p>
+<p><i>coountry CHAR(2)</i></p>
+<p><i>)</i></p>
 
+# ALTER, DROP, and TRUNCATE Tables
+<p><b></b></p>
 
 
 
