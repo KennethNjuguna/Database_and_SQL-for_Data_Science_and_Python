@@ -239,6 +239,14 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 <p><i>ALTER TABLE author</i></p>
 <p><i>ADD COLUMN telephone_number BIGINT;</i></p>
 
+<p><h2>Modify Datatype of a Column</h2></p>
+<p><i>ALTER TABLE <table_name></i></p>
+<p><i>ALTER TABLE <table_name></i></p>
+<p><i>ALTER COLUMN <column_name> SET DATATYPE</i></p>
+<p><i><datatype>;</i></p>
+
+
+
 
 
 
