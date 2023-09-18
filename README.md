@@ -245,6 +245,12 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 <p><i>ALTER COLUMN <column_name> SET DATATYPE</i></p>
 <p><i><datatype>;</i></p>
 
+<p><b>Example:-</b></p>
+<p><i>ALTER TABLE author</i></p>
+<p><i>ALTER COLUMN telephone_number SET DATA TYPE</i></p>
+<p><i>CHAR(20);</i></p>
+
+
 
 
 
