@@ -195,6 +195,12 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
        <li>DELETE- used to remove or delete a row or rows from a table.</li>
 </ul></p>
 
+# CREATE TABLE Statement
+<p>Create a table in relational database using Entity Name, Atrributes and the CREATE TABLE statement. </p>
+<p><h2>Create table</h2></p>
+<p>Most commonly used DDL statement.</p>
+<p>Syntax: CREATE TABLE <i>table_name</i></p>
+
 
 
 
