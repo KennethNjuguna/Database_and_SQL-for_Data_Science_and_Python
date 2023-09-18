@@ -200,7 +200,18 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 <p><h2>Create table</h2></p>
 <p>Most commonly used DDL statement.</p>
 <p>Syntax: CREATE TABLE <i>table_name</i></p>
+<p><i>(</i></p>
+<p><i>column_name_1 datatype optional parameters,</i></p>
+<p><i>column_name_2 datatype,</i></p>
+<p>...</p>
+<p><i>column_name_n datatype</i></p>
+<p>)</p>
 
+<p><b>CREATE A TABLE FOR PROVINCES</b></p>
+<p><i>CREATE TABLE provinces(</i></p>
+<p><i>idchar(2) PRIMARY KEY NOT NULL,</i></p>
+<p><i>name varchar(24)</i></p>
+<p>)</p>
 
 
 
