@@ -228,7 +228,16 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 <p><ul><li>Add or remove columns.</li>
        <li>Modify the data type of Columns</li>
        <li>Add or remove keys.</li>
-       <li>Add or remove constraints.</li></ul></p>
+       <li>Add or remove constraints.</li>
+</ul></p>
+<p><i>ALTER TABLE <table_name></i></p>
+<p><i>ADD COLUMN <column_name_1> datatype</i></p>
+<p>...</p>
+<p><i>ADD COLUMN <column_name_n> datatype;</i></p>
+
+<p>Example:-</p>
+<p><i>ALTER TABLE author</i></p>
+<p><i>ADD COLUMN telephone_number BIGINT;</i></p>
 
 
 
