@@ -220,7 +220,7 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 <p><i>firstnamename VARCHAR(15) NOT NULL,</i></p>
 <p><i>email VARCHAR(40) NOT NULL,</i></p>
 <p><i>city VARCHAR(15),</i></p>
-<p><i>coountry CHAR(2)</i></p>
+<p><i>country CHAR(2)</i></p>
 <p><i>)</i></p>
 
 # ALTER, DROP, and TRUNCATE Tables
@@ -249,6 +249,15 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 <p><i>ALTER TABLE author</i></p>
 <p><i>ALTER COLUMN telephone_number SET DATA TYPE</i></p>
 <p><i>CHAR(20);</i></p>
+
+<p><i>ALTER TABLE author</i></p>
+<p><i>DROP COLUMN telephone_number;</i></p>
+
+<p><b>DROP TABLE</b></p>
+<p><i>DROP TABLE <table_name>;</i></p>
+
+<p><i>TRUNCATE TABLE <table_name></i></p>
+<p><i>IMMEDIATE;</i></p>
 
 
 
