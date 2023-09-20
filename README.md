@@ -277,6 +277,8 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 <p>So, to truncate the author’s table, the statement will be written as:</p>
 <p><i>TRUNCATE TABLE author;</i></p>
 
+<pMySQL is a Relational Database Management System (RDBMS) designed to efficiently store, manipulate, and retrieve data.></p>
+
 
 
 
