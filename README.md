@@ -295,7 +295,7 @@ CREATE TABLE PET (
     ANIMAL VARCHAR(20),
     QUANTITY INTEGER
     );
-
+<p></p>
 
 
 
