@@ -259,6 +259,11 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 <p><i>TRUNCATE TABLE <table_name></i></p>
 <p><i>IMMEDIATE;</i></p>
 
+# ALTER TABLE
+<p>ALTER TABLE statements used to add or remove columns from a table, to modify the data type of columns, to add or remove keys, and to add or remove constraints. The syntax of the ALTER TABLE statement is:</p>
+
+# ADD COLUMN syntax
+
 
 
 
