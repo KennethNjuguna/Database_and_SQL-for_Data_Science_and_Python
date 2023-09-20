@@ -279,6 +279,23 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 
 <pMySQL is a Relational Database Management System (RDBMS) designed to efficiently store, manipulate, and retrieve data.></p>
 
+# CREATE TABLE LAB
+<p>You need to create two tables, PETSALE and PET. To create the two tables PETSALE and PET, copy the code below and paste it to the textarea of the SQL page. Click Go.</p>
+
+ CREATE TABLE PETSALE (
+    ID INTEGER NOT NULL,
+    PET CHAR(20),
+    SALEPRICE DECIMAL(6,2),
+    PROFIT DECIMAL(6,2),
+    SALEDATE DATE
+    );
+    
+CREATE TABLE PET (
+    ID INTEGER NOT NULL,
+    ANIMAL VARCHAR(20),
+    QUANTITY INTEGER
+    );
+
 
 
 
