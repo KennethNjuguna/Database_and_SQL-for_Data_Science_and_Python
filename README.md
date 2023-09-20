@@ -270,6 +270,12 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 <p><i>ALTER TABLE author</i></p> 
 <p><i>ADD COLUMN telephone_number BIGINT;</i></p> 
 
+# TRUNCATE Table
+<p>TRUNCATE TABLE statement are used to delete all of the rows in a table. The syntax of the statement is: </p>
+<p><i>TRUNCATE TABLE table_name;</i></p>
+
+<p>So, to truncate the author’s table, the statement will be written as:</p>
+<p><i>TRUNCATE TABLE author;</i></p>
 
 
 
