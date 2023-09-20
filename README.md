@@ -282,20 +282,20 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 # CREATE TABLE LAB
 <p>You need to create two tables, PETSALE and PET. To create the two tables PETSALE and PET, copy the code below and paste it to the textarea of the SQL page. Click Go.</p>
 
- CREATE TABLE PETSALE (
-    ID INTEGER NOT NULL,
-    PET CHAR(20),
-    SALEPRICE DECIMAL(6,2),
-    PROFIT DECIMAL(6,2),
-    SALEDATE DATE
-    );
+ <p><i>CREATE TABLE PETSALE ( </i></p>
+    <p><i>ID INTEGER NOT NULL,</i></p>
+    <p><i>PET CHAR(20),</i></p>
+    <p><i>SALEPRICE DECIMAL(6,2),</i></p>
+    <p><i>PROFIT DECIMAL(6,2),</i></p>
+    <p><i>SALEDATE DATE</i></p>
+    <p><i>);</i></p>
     
-CREATE TABLE PET (
-    ID INTEGER NOT NULL,
-    ANIMAL VARCHAR(20),
-    QUANTITY INTEGER
-    );
-<p></p>
+<p><i>CREATE TABLE PET (</i></p>
+    <p><i>ID INTEGER NOT NULL,</i></p>
+    <p><i>ANIMAL VARCHAR(20),</i></p>
+    <p><i>QUANTITY INTEGER</i></p>
+    <p><i>);</i></p>
+
 
 
 
