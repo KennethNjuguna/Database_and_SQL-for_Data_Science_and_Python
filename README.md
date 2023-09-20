@@ -298,6 +298,13 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 
 ![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/f9db9c4b-1edd-47b6-8b59-2bf5a37ddefe)
 
+<p>Now insert some records into the two newly created tables and show all the records of the two tables. Copy the code below and paste it to the textarea of the SQL page</p>
+
+![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/ba36d255-28d7-49ec-97fa-b4c4a549c6aa)
+
+
+
+
     
 
 
