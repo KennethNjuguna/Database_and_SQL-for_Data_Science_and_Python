@@ -296,7 +296,8 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
     <p><i>QUANTITY INTEGER</i></p>
     <p><i>);</i></p>
 
-    ![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/46cb0ce2-763f-47d4-b4b1-6a7ddbdb5072)
+![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/f9db9c4b-1edd-47b6-8b59-2bf5a37ddefe)
+
     
 
 
