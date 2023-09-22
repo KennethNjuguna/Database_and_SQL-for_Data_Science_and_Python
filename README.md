@@ -304,7 +304,20 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 
 # How to Create Database on Cloud
 <p>Advatanges include accessed by everyone, scalability and Disaster recovery. </p>
+<p>Example of cloud based databases</p>
+<p><ul>
+       <li>IBM db2</li>
+       <li>Databases for PostgreSQL</li>
+       <li>Oracle Database Cloud service</li>
+       <li>Microsoft Azure SQL Database</li>
+       <li>Amazon Relational Database Service(RDS)</li>
+</ul></p>
 
+<p>Available As</p>
+<p><ul>
+       <li>VMs or Managed services</li>
+       <li>Single or multitenant</li>
+</ul></p>
 
 
 
