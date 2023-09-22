@@ -319,6 +319,8 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
        <li>Single or multitenant</li>
 </ul></p>
 
+# Hands-on Lab: Create Db2 service instance and Get started with the Db2 console
+
 
 
 
