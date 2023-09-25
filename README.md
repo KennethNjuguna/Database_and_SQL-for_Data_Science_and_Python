@@ -334,11 +334,28 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 <p><i>ALTER TABLE employee ADD COLUMN income bigint;</i></p>
 
 <p><ul><li>ALTER TABLE - ALTER COLUMN</li></ul></p>
-<p> ALTER TABLE table_name ALTER COLUMN column_name_1 SET DATA TYPE datatype;</p>
+<p>ALTER TABLE table_name ALTER COLUMN column_name_1 SET DATA TYPE datatype;</p>
 <p><b>ALTER TABLE ALTER COLUMN</b>  statement is used to modify the data type of columns.</p>
 <p><i>ALTER TABLE employee ALTER COLUMN mobile SET DATA TYPE CHAR(20);</i></p>
 
+<p><ul><li>ALTER TABLE - DROP COLUMN</li></ul></p>
+<p>ALTER TABLE table_name DROP COLUMN column_name_1 ;</p>
+<p><b>ALTER TABLE DROP COLUMN</b>  statement is used to remove columns from a table.</p>
+<p><i>ALTER TABLE employee DROP COLUMN mobile ;</i></p>
 
+<p><ul><li>ALTER TABLE - RENAME COLUMN</li></ul><p></p>
+<p>ALTER TABLE table_name RENAME COLUMN current_column_name TO new_column_name;</p>
+<p><b>ALTER TABLE RENAME COLUMN</b>  statement is used to rename the columns in a table.</p>
+<p><i>ALTER TABLE employee RENAME COLUMN first_name TO name ;</i></p>
+
+<p><ul><li>TRUNCATE TABLE</li></ul><p></p>
+<p>TRUNCATE TABLE table_name IMMEDIATE;</p>
+<p><b>TRUNCATE TABLE statement</b> is used to delete all of the rows in a table. The IMMEDIATE specifies to process the statement immediately and that it cannot be undone.</p>
+<p>TRUNCATE TABLE employee IMMEDIATE ;</p>
+
+<p><ul><li>DROP TABLE</li></ul><p></p>
+<p>DROP TABLE table_name ;</p>
+<p><b>	Use the DROP TABLE statement</b> to delete a table from a database. If you delete a table that contains data, by default the data will be deleted alongside the table.</p>
 
 
 
