@@ -321,6 +321,10 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 
 # Hands-on Lab: Create Db2 service instance and Get started with the Db2 console
 
+# SQL Cheat sheet.
+<p><ul><li>CREATE TABLE <i>CREATE TABLE table_name (col1 datatype optional keyword, col2 datatype optional keyword,col3 datatype optional keyword,..., coln datatype optional keyword)</i> </li></ul></p>
+<p><i>CREATE TABLE statement is to create the table. Each column in the table is specified with its name, data type and an optional keyword which could be PRIMARY KEY, NOT NULL, etc.,</i></p>
+
 
 
 
