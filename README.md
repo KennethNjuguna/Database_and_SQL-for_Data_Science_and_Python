@@ -323,12 +323,15 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 
 # SQL Cheat sheet.
 <p><ul><li>CREATE TABLE <i>CREATE TABLE table_name (col1 datatype optional keyword, col2 datatype optional keyword,col3 datatype optional keyword,..., coln datatype optional keyword)</i> </li></ul></p>
-<p><i>CREATE TABLE statement is to create the table. Each column in the table is specified with its name, data type and an optional keyword which could be PRIMARY KEY, NOT NULL, etc.,</i></p>
+<p><i><b>CREATE TABLE statement</b> is to create the table. Each column in the table is specified with its name, data type and an optional keyword which could be PRIMARY KEY, NOT NULL, etc.,</i></p>
 <p><i>CREATE TABLE employee </i></p>
 <p><i>( employee_id char(2) PRIMARY KEY, </i></p>
 <p><i>first_name varchar(30) NOT NULL, mobile int);</i></p>
 
-ALTER TABLE - ADD COLUMN
+<p><ul><li>ALTER TABLE - ADD COLUMN</li></ul></p>
+<p>ALTER TABLE table_name ADD COLUMN column_name_1 datatype....ADD COLUMN column_name_n datatype; </p>
+<p><i><b>ALTER TABLE statement</b> is used to add the columns to a table.</i></p>
+<p><i>ALTER TABLE employee ADD COLUMN income bigint;</i></p>
 
 
 
