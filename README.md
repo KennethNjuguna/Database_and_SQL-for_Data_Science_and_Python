@@ -333,6 +333,11 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 <p><i><b>ALTER TABLE statement</b> is used to add the columns to a table.</i></p>
 <p><i>ALTER TABLE employee ADD COLUMN income bigint;</i></p>
 
+<p><ul><li>ALTER TABLE - ALTER COLUMN</li></ul></p>
+<p> ALTER TABLE table_name ALTER COLUMN column_name_1 SET DATA TYPE datatype;</p>
+<p><b>ALTER TABLE ALTER COLUMN</b>  statement is used to modify the data type of columns.</p>
+<p><i>ALTER TABLE employee ALTER COLUMN mobile SET DATA TYPE CHAR(20);</i></p>
+
 
 
 
