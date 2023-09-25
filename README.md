@@ -356,9 +356,15 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 <p><ul><li>DROP TABLE</li></ul><p></p>
 <p>DROP TABLE table_name ;</p>
 <p><b>	Use the DROP TABLE statement</b> to delete a table from a database. If you delete a table that contains data, by default the data will be deleted alongside the table.</p>
+<p><i>DROP TABLE employee ;</i></p>
 
-
-
+<p><ul>
+<li>A database is a repository of data that provides functionality for adding, modifying, and querying the data. </li>
+<li>SQL is a language used to query or retrieve data from a relational database. </li>
+<li>The Relational Model is the most used data model for databases because it allows for data independence. </li>
+<li>The primary key of a relational table uniquely identifies each tuple or row, preventing duplication of data and providing a way of defining relationships between tables. </li>
+<li>SQL statements fall into two different categories: Data Definition Language (DDL) statements and Data Manipulation Language (DML) statements.</li>
+</ul></p>
 
     
 
