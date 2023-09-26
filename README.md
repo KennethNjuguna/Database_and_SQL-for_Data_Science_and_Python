@@ -376,7 +376,7 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 <p><i>WHERE firstname LIKE R% </i></p>
 
 # SORTING Result Sets.
-
+<p></p>
     
 
 
