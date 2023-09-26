@@ -366,6 +366,10 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 <li>SQL statements fall into two different categories: Data Definition Language (DDL) statements and Data Manipulation Language (DML) statements.</li>
 </ul></p>
 
+# Using string, patterns and Ranges
+<p>Retriving data from a table without the where clause. WHERE clause requires a predicate</p>
+<p>Predicate is an expression that evaluates to TRUE, FALSE or UNKNOWN</p>
+
     
 
 
