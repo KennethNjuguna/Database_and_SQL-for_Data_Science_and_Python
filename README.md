@@ -366,7 +366,7 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 <li>SQL statements fall into two different categories: Data Definition Language (DDL) statements and Data Manipulation Language (DML) statements.</li>
 </ul></p>
 
-# Using string, patterns and Ranges
+# Using string, patterns and Ranges.
 <p>Retriving data from a table without the where clause. WHERE clause requires a predicate</p>
 <p>Predicate is an expression that evaluates to TRUE, FALSE or UNKNOWN</p>
 <p>Use the LIKE predicate with string patterns for search</p>
@@ -374,6 +374,8 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 <p><i>WHERE <columnname> LIKE <stringpattern></i></p>
        
 <p><i>WHERE firstname LIKE R% </i></p>
+
+# SORTING Result Sets.
 
     
 
