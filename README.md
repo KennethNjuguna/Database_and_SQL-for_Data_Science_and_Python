@@ -369,6 +369,11 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 # Using string, patterns and Ranges
 <p>Retriving data from a table without the where clause. WHERE clause requires a predicate</p>
 <p>Predicate is an expression that evaluates to TRUE, FALSE or UNKNOWN</p>
+<p>Use the LIKE predicate with string patterns for search</p>
+<p><b>Example</b></p>
+<p><i>WHERE <columnname> LIKE <stringpattern></i></p>
+       
+<p><i>WHERE firstname LIKE R% </i></p>
 
     
 
