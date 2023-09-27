@@ -421,6 +421,19 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 <p><i>FROM EMPLOYEES</i></p>
 <p><i>WHERE (SALARY BETWEEN 60000 AND 70000) AND DEP_ID = 5;</i></p>
 
+# SUMMARY 
+<ul>
+       <li>You can use the WHERE clause to refine your query results.</li>
+       <li>You can use the wildcard character (%) as a substitute for unknown characters in a pattern.</li>
+       <li>You can use BETWEEN ... AND ... to specify a range of numbers.</li>
+       <li>You can sort query results into ascending or descending order, using the ORDER BY clause to specify the column to sort on.            </li>
+       <li>You can group query results by using the GROUP BY clause. </li>
+</ul>
+
+# SQL Cheat Sheet: Intermediate - LIKE, ORDER BY, GROUP BY
+
+
+
 
 
 
