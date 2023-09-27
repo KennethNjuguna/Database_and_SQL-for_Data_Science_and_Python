@@ -461,6 +461,60 @@ There are two wildcards often used in conjunction with the LIKE operator which a
 <p>Example: </p>
 <p>SELECT dep_id, COUNT(*) FROM employees GROUP BY dep_id;</p>
 
+# Built-in Database Functions
+<ul>
+<li>SQL built into the database</li>
+<li>This functions can be included in SQL statements</li>
+<li>Databases functions can significantly reduce the amount of data that needs to be retrieved</li>
+<li>Can speed up data processing.</li>
+</ul>
+
+# <h2>Aggregate or Column Functions</h2>
+<p><b>INPUT:</b> Collection of values(e.g. entire column)</p>
+<p><b>Output:</b> Single value</p>
+<p>Examples: SUM(), MIN(), MAX(), AVG(), etc</p>
+
+# <h3>SUM</h3>
+<p>Using the pet rescue table.</p>
+<p>SUM Function: Add up all the values in a column</p>
+<p>Syntax: SUM(COLUMN_NAME)</p>
+
+<p>Example 1: Add all values in the COST column</p>
+<p><i>select SUM(COST) from PETRESCUE</i></p>
+
+# <h4>Column Alias </h4
+<p>Example 2: Explicitly name the output column SUM_OF_COST: </p>
+<p>select SUM(COST) as SUM_OF_COST from PETRESCUE</p>
+
+# MIN, MAX
+<p>MIN: Return the MINIMUM value.</p>
+<p>MAX: Return the MAXIMUM value.</p>
+
+<p>Example 3A: Get the maximum QUANTITY of any ANIMAL:</p>
+<p>select MAX(QUANTITY) from PETRESCUE</p>
+
+<p>Example Get the minimum value of ID column for Dogs:</p>
+<p><i>select MIN(ID) from PETRESCUE where ANIMAL = 'Dog'</i></p>
+
+#Average
+<p>AVG() return the average value</p>
+<p> Example</p>
+<p><i>select AVG(COST) from PETRESCUE</i></p>
+
+<p>Mathematical operations can be performed between columns</p>
+<p>Example:</p>
+<p><i>select AVG(COST/QUANTITY) from PETRESCUE where ANIMAL= 'Dog'</i></p>
+
+# SCALAR and STRING FUNCTIONS
+<p><b>SCALAR: </b>Perform operations on every input value</p>
+<p>Examples: ROUND(),LENGTH(), UCASE, LCASE</p>
+<p><b>SCALAR FUNCTIONS: </b></p>
+<p><i>select LENGTH(ANIMAL) from PETRESCUE</i></p>
+
+# UCASE, LCASE
+<p></p>
+
+
 
 
 
