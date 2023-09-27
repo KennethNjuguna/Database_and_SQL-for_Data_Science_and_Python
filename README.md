@@ -396,7 +396,23 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 ![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/7169491d-5162-4a07-922c-db3882e98afb)
 
 # Restricting the Result Set- HAVING clause
-<p></p>
+<p>We can check if there are more that 3 authors in a certain country</p>
+<p><b>Initial Query is <i> select country, count(country) as Count from Author group by country</i></b></p>
+<p><b>Second Query with having keyword <i>select country, count(country) as Count from Author group by country having count(country) > 4 </i></b></p>
+<p>HAVING keyword works only with the group by statement</p>
+
+![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/cae1d63a-4b64-451d-a5ab-56a748c6c369)
+
+# HANDS ON LAB String Patterns, Sorting and Grouping in MySQL using phpMyAdmin
+
+
+
+
+
+
+
+
+
 
 
 
