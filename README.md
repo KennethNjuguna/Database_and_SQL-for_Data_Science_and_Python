@@ -437,6 +437,13 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
  <p></p><i> SELECT column1, column2, ... FROM table_name WHERE columnN LIKE pattern; </i></p>
  <p>Description: LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
 There are two wildcards often used in conjunction with the LIKE operator which are percent sign(%) and underscore sign (_).  </p>
+<p>EXAMPLE:</p>
+<p><i>SELECT f_name , l_name FROM employees WHERE address LIKE '%Elgin,IL%';</i></p>
+
+# <h2>BETWEEN </h2>
+
+
+
 
 
 
