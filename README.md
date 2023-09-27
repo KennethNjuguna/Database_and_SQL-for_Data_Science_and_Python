@@ -441,6 +441,25 @@ There are two wildcards often used in conjunction with the LIKE operator which a
 <p><i>SELECT f_name , l_name FROM employees WHERE address LIKE '%Elgin,IL%';</i></p>
 
 # <h2>BETWEEN </h2>
+<p>Syntax: -</p>
+<p><i>SELECT column_name(s) FROM table_name WHERE column_name BETWEEN value1 AND value2;</i></p>
+<p>Description: The BETWEEN operator selects values within a given range. The values can be numbers, text, or dates. The BETWEEN operator is inclusive: begin and end values are included.</p>
+<p>Example: </p>
+<p><i>SELECT * FROM employees WHERE salary BETWEEN 40000 AND 80000;</i></p>
+
+# <h2>ORDER BY</h2>
+<p>Syntax: </p>
+<p><i>SELECT column1, column2, ... FROM table_name ORDER BY column1, column2, ... ASC|DESC; </i></p>
+<p>Description: ORDER BY keyword is used to sort the result-set in ascending or descending order. The default is ascending.</p>
+<p>Example: </p>
+<p><i>SELECT f_name, l_name, dep_id FROM employees ORDER BY dep_id DESC, l_name;</i></p>
+
+# <h2>GROUP BY</h2>
+<p>Syntax: </p>
+<p><i>SELECT column_name(s) FROM table_name WHERE condition GROUP BY column_name(s) ORDER BY column_name(s); </i></p>
+<p>Description: GROUP BY clause is used in collaboration with the SELECT statement to arrange identical data into groups. </p>
+<p>Example: </p>
+<p>SELECT dep_id, COUNT(*) FROM employees GROUP BY dep_id;</p>
 
 
 
