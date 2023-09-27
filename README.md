@@ -411,6 +411,17 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 <p><i>FROM EMPLOYEES</i></p>
 <p><i>WHERE ADDRESS LIKE '%Elgin,IL%';</i></p>
 
+<p><b> 2. Retrieve all employees who were born during the 1970’s.</b></p>
+<p><i>SELECT F_NAME , L_NAME</i></p>
+<p><i>FROM EMPLOYEES</i></p>
+<p><i>WHERE B_DATE LIKE '197%';</i></p>
+
+<p><b> 3. Retrieve all employees in department 5 whose salary is between 60000 and 70000.</b></p>
+<p><i>SELECT *</i></p>
+<p><i>FROM EMPLOYEES</i></p>
+<p><i>WHERE (SALARY BETWEEN 60000 AND 70000) AND DEP_ID = 5;</i></p>
+
+
 
 
 
