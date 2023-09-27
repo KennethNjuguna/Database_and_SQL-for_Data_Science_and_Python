@@ -376,7 +376,11 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 <p><i>WHERE firstname LIKE R% </i></p>
 
 # SORTING Result Sets.
-<p></p>
+<p>Eliminate duplicates from a result set</p>
+
+<p><b>Eliminating Duplicates - DISTINCT clause</b></p>
+<p>Example:</p>
+<p><i>select COUNTRY from Author ORDER BY 1- <b>This statement displays all the countries shown by alphabetical order.</b></i></p>
     
 
 
