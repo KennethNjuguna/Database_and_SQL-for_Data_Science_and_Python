@@ -405,6 +405,14 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 
 # HANDS ON LAB String Patterns, Sorting and Grouping in MySQL using phpMyAdmin
 
+<p><b>We will use the HR Database</b></p>
+<p><b> 1. Retrieve all employees whose address is in Elgin,IL</b></p>
+<p><i>SELECT F_NAME , L_NAME</i></p>
+<p><i>FROM EMPLOYEES</i></p>
+<p><i>WHERE ADDRESS LIKE '%Elgin,IL%';</i></p>
+
+
+
 
 
 
