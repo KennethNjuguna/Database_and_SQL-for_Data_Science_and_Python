@@ -381,7 +381,23 @@ VALUES(5, 'Doe', 'John', 'Sydney', 'AU'), (6, 'Doe', 'Jane', 'Dhaka', 'BD');</i>
 <p><b>Eliminating Duplicates - DISTINCT clause</b></p>
 <p>Example:</p>
 <p><i>select COUNTRY from Author ORDER BY 1- <b>This statement displays all the countries shown by alphabetical order.</b></i></p>
-    
+
+# DISTINCT CLAUSE
+<p>To eliminate duplicates within a dataset we use the DISTINCT clause</p>
+<p>Example:-</p>
+<p><i>select DISTINCT (country) from Author</i></p>
+
+# GROUP BY Clause
+<p>It counts the particular countries</p>
+<p><i>select country, count(country) from Author GROUP BY country</i></p>
+<p>Using the as count Keyword to have the derivative column named. this will be as:</p>
+<p><i>select country, count(country) as Count from Author group by country</i></p>
+
+![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/7169491d-5162-4a07-922c-db3882e98afb)
+
+# Restricting the Result Set- HAVING clause
+<p></p>
+
 
 
 
