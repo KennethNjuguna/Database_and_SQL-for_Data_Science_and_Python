@@ -541,6 +541,11 @@ There are two wildcards often used in conjunction with the LIKE operator which a
 <p><i>select (CURRENT_DATE - RESCUEDATE) from PETRESCUE</i></p>
 
 # LAB ON BUILT IN FUNCTIONS ON THE PETRESCUE DATABASE
+<p> Query A1: Enter a function that calculates the total cost of all animal rescues in the PETRESCUE table.</p>
+<p><b>SOLUTION:</b>select SUM(COST) from PETRESCUE;</p>
+
+<p>Query A2: Enter a function that displays the total cost of all animal rescues in the PETRESCUE table in a column called SUM_OF_COST.</p>
+<p><b>SOLUTION:</b>select SUM(COST) AS SUM_OF_COST from PETRESCUE;</p>
 
 
 
