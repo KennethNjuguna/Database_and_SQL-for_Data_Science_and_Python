@@ -577,6 +577,22 @@ Hint - Bear in my the cost of rescuing one dog on day, is different from another
 <p>Query B5: Enter a query that displays all the columns from the PETRESCUE table, where the animal(s) rescued are cats. Use cat in lower case in the query.</p>
 <p><b>SOLUTION:</b><i>select * from PETRESCUE where LCASE(ANIMAL) = 'cat';</i></p>
 
+# <h2>Exercise 4 Solutions: Date and Time Functions.</h2>
+<p>Query C1: Enter a function that displays the day of the month when cats have been rescued.</p>
+<p><b>SOLUTION: </b><i>select DAY(RESCUEDATE) from PETRESCUE where ANIMAL = 'Cat';</i></p>
+
+<p>Query C2: Enter a function that displays the number of rescues on the 5th month.</p>
+<p><b>SOLUTION: </b><i>select DAY(RESCUEDATE) from PETRESCUE where ANIMAL = 'Cat';</i></p>
+
+<p>Query C3: Enter a function that displays the number of rescues on the 14th day of the month.</p>
+<p><b>SOLUTION:</b><i>select SUM(QUANTITY) from PETRESCUE where DAY(RESCUEDATE)='14';</i></p>
+
+<p>Query C4: Animals rescued should see the vet within three days of arrivals. Enter a function that displays the third day from each rescue.</p>
+<p><b>SOLUTION:</b><i>select DATE_add(RESCUEDATE, INTERVAL 3 DAY) from PETRESCUE;</i></p>
+
+<p>Query C5: Enter a function that displays the length of time the animals have been rescued; the difference between today’s date and the rescue date.</p>
+<p><b>SOLUTION:</b><i>select DATEDIFF(CURRENT_TIMESTAMP,RESCUEDATE) from PETRESCUE;</i></p>
+
 
 
 
