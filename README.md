@@ -540,6 +540,8 @@ There are two wildcards often used in conjunction with the LIKE operator which a
 <p>Example: Find how many days have passed since each RESCUEDATE till now</p>
 <p><i>select (CURRENT_DATE - RESCUEDATE) from PETRESCUE</i></p>
 
+# LAB ON BUILT IN FUNCTIONS ON THE PETRESCUE DATABASE
+
 
 
 
