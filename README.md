@@ -521,6 +521,8 @@ There are two wildcards often used in conjunction with the LIKE operator which a
 <p><b>TIME</b> It has 6 digits HHMMSS</p>
 <p><b>TIMESTAMP</b> It has 20 digits YYYYXXDDHHMMSSZZZZZZ</p>
 
+<p>Date/Time functions:- YEAR(), MONTH(), DAY(), DAYOFMONTH(), DAYOFWEEK(), DAYOFYEAR(), WEEK(), HOUR(), MINUTE(), SECOND() </p>
+
 
 
 
