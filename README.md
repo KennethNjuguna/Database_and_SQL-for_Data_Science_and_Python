@@ -593,6 +593,22 @@ Hint - Bear in my the cost of rescuing one dog on day, is different from another
 <p>Query C5: Enter a function that displays the length of time the animals have been rescued; the difference between today’s date and the rescue date.</p>
 <p><b>SOLUTION:</b><i>select DATEDIFF(CURRENT_TIMESTAMP,RESCUEDATE) from PETRESCUE;</i></p>
 
+# SUB-Queries and Nested Selects.
+<p>A Subquery- A query inside another query</p>
+<p>Subqueries are always placed within another query in parenthesis</p>
+<p>Example:</p>
+
+<p><b><i>select COLUMN1 from TABLE where COLUMN2 = (select MAX(COLUMN2) from TABLE)</i></b></p>
+<p>Using the employees table: Retrieve the list of all employees who earn more than average salary:-</p>
+<p>We can try this code <i>select * from employees where salary > AVG(salary)</i></p>
+<p><b>Above code will bring errors</b></p>
+<p>To resolve this we use subqueries</p>
+
+<p>Cannot evaluate Aggregate functions like AVG() in the WHERE clause Therefore we use a sub-Select expression.</p>
+<p><i>select EMP_ID, F_NAME, L_NAME, SALARY</i></p>
+<p><i>from employees</i></p>
+<p><i>where SALARY<</i></p>
+<p><i>(select AVG(SALARY) from employees);</i></p>
 
 
 
