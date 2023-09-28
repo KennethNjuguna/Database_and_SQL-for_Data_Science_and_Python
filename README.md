@@ -516,7 +516,10 @@ There are two wildcards often used in conjunction with the LIKE operator which a
 
 # Date and Time built-in Functions
 <p>Most of the databases can with inbuilt special datatypes for date and time.</p>
-
+<p>In db2 we have three attributes DATE, TIME and TIMESTAMP</p>
+<p><b>DATE</b> It has 8 digits YYYYMMDD </p>
+<p><b>TIME</b> It has 6 digits HHMMSS</p>
+<p><b>TIMESTAMP</b> It has 20 digits YYYYXXDDHHMMSSZZZZZZ</p>
 
 
 
