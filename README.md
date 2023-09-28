@@ -534,6 +534,12 @@ There are two wildcards often used in conjunction with the LIKE operator which a
 <p>What date is it after 3 days after the rescuedate?</p>
 <p><i>Select (RESCUEDATE + 3 DAYS) from PETRESCUE</i></p>
 
+# <h2>Date and Time Arithmetic</h2>
+<p>Special registers</p>
+<p><b>CURRENT_DATE, CURRENT_TIME</b></p>
+<p>Example: Find how many days have passed since each RESCUEDATE till now</p>
+<p><i>select (CURRENT_DATE - RESCUEDATE) from PETRESCUE</i></p>
+
 
 
 
