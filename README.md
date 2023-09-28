@@ -558,6 +558,24 @@ There are two wildcards often used in conjunction with the LIKE operator which a
 Hint - Bear in my the cost of rescuing one dog on day, is different from another day. So you will have to use and average of averages.</p>
 <p><b>SOLUTION:</b><i>select AVG(COST/QUANTITY) from PETRESCUE where ANIMAL = 'Dog';</i></p>
 
+# <h2>Exercise 3 Solutions: Scalar and String Functions. </h2>
+<p>Query B1: Enter a function that displays the rounded cost of each rescue.</p>
+<p><b>SOLUTION:</b><i>select ROUND(COST) from PETRESCUE;</i></p>
+
+<p>Query B2: Enter a function that displays the length of each animal name.</p>
+<p><b>SOLUTION:</b><i>select LENGTH(ANIMAL) from PETRESCUE;</i></p>
+
+<p>Query B3: Enter a function that displays the animal name in each rescue in uppercase.</p>
+<p><b>SOLUTION:</b><i>select UCASE(ANIMAL) from PETRESCUE;</i></p>
+
+<p>Query B3: Enter a function that displays the animal name in each rescue in uppercase.</p>
+<p><b>SOLUTION:</b><i>select UCASE(ANIMAL) from PETRESCUE;</i></p>
+
+<p>Query B4: Enter a function that displays the animal name in each rescue in uppercase without duplications.</p>
+<p><b>SOLUTION:</b><i>select DISTINCT(UCASE(ANIMAL)) from PETRESCUE;</i></p>
+
+<p>Query B5: Enter a query that displays all the columns from the PETRESCUE table, where the animal(s) rescued are cats. Use cat in lower case in the query.</p>
+<p><b>SOLUTION:</b><i>select * from PETRESCUE where LCASE(ANIMAL) = 'cat';</i></p>
 
 
 
