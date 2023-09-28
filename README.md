@@ -610,6 +610,23 @@ Hint - Bear in my the cost of rescuing one dog on day, is different from another
 <p><i>where SALARY<</i></p>
 <p><i>(select AVG(SALARY) from employees);</i></p>
 
+# Sub-queries in list of columns
+<p>Substitue column name with a subquery called column expressions</p>
+<p><i>select EMP_ID, SALARY, </i></p>
+<p><i>(select AVG(SALARY) from employees )</i></p>
+<p><i>AS AVG_SALARY</i></p>
+<p><i>from employees;</i></p>
+
+# Subqueries in FROM clause
+<p>Substitute table or tables name with suvbquery</p>
+<p>Example:</p>
+<p><i>select * FROM</i></p>
+<p><i>(select EMP_ID, F_NAME, L_NAME, DEP_ID</i></p>
+<p><i>from employees) AS EMP4ALL;</i></p>
+
+
+
+
 
 
 
