@@ -541,6 +541,7 @@ There are two wildcards often used in conjunction with the LIKE operator which a
 <p><i>select (CURRENT_DATE - RESCUEDATE) from PETRESCUE</i></p>
 
 # LAB ON BUILT IN FUNCTIONS ON THE PETRESCUE DATABASE
+# <h2> Exercise 2 Solutions: Aggregate Functions </h2>
 <p>Query A1: Enter a function that calculates the total cost of all animal rescues in the PETRESCUE table.</p>
 <p><b>SOLUTION:</b><i>select SUM(COST) from PETRESCUE;</i></p>
 
@@ -553,7 +554,9 @@ There are two wildcards often used in conjunction with the LIKE operator which a
 <p>Query A4: Enter a function that displays the average cost of animals rescued.</p>
 <p><b>SOLUTION:</b><i>select AVG(COST) from PETRESCUE;</i></p>
 
-<p>Query A4: Enter a function that displays the average cost of animals rescued.</p>
+<p>Query A5: Enter a function that displays the average cost of rescuing a dog.
+Hint - Bear in my the cost of rescuing one dog on day, is different from another day. So you will have to use and average of averages.</p>
+<p><b>SOLUTION:</b><i>select AVG(COST/QUANTITY) from PETRESCUE where ANIMAL = 'Dog';</i></p>
 
 
 
