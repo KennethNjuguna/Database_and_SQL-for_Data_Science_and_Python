@@ -512,7 +512,10 @@ There are two wildcards often used in conjunction with the LIKE operator which a
 <p><i>select LENGTH(ANIMAL) from PETRESCUE</i></p>
 
 # UCASE, LCASE
-<p></p>
+<p>Retrieve animal values in Uppercase</p>
+
+# Date and Time built-in Functions
+<p>Most of the databases can with inbuilt special datatypes for date and time.</p>
 
 
 
