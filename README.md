@@ -523,6 +523,17 @@ There are two wildcards often used in conjunction with the LIKE operator which a
 
 <p>Date/Time functions:- YEAR(), MONTH(), DAY(), DAYOFMONTH(), DAYOFWEEK(), DAYOFYEAR(), WEEK(), HOUR(), MINUTE(), SECOND() </p>
 
+# <h2>Date and Time queries.</h2>
+<p>Example: Extract DAY portion from the date</p>
+<p><i>select DAY(RESCUEDATE) from PETRESCUE where ANIMAL= 'cat'</i></p>
+
+<p><b>Date and rescue can be used with the WHERE clause</b></p>
+<p><i>select COUNT(*) from PETRESCUE where MONTH (RESCUEDATE) ='05' </i></p>
+
+<p><b>You can as well perform mathematical functions on time and date functions</b></p>
+<p>What date is it after 3 days after the rescuedate?</p>
+<p><i>Select (RESCUEDATE + 3 DAYS) from PETRESCUE</i></p>
+
 
 
 
