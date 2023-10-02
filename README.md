@@ -730,6 +730,15 @@ Hint - Bear in my the cost of rescuing one dog on day, is different from another
 <p><i>Redo the previous query, but specify the fully qualified column names with aliases in the SELECT clause.</i></p>
 <p><i></i></p>
 
+# Summary & Highlights
+<ul>
+       <li>Most databases come with built-in functions that you can use in SQL statements to perform operations on data within the database itself.</li>
+       <li>When you work with large datasets, you may save time by using built-in functions rather than first retrieving the data into your application and then executing functions on the retrieved data.</li>
+       <li>You can use sub-queries to form more powerful queries than otherwise.</li>
+       <li>You can use a sub-select expression to evaluate some built-in aggregate functions like the average function.</li>
+       <li>Derived tables or table expressions are sub-queries where the outer query uses the results of the sub-query as a data source.</li>
+</ul>
+
 
 
 
