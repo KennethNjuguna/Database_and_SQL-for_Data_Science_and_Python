@@ -625,6 +625,19 @@ Hint - Bear in my the cost of rescuing one dog on day, is different from another
 <p><i>from employees) AS EMP4ALL;</i></p>
 
 # Working with Multiple Tables
+<p><b>Querying Multiple Tables</b></p>
+# <h2></h2>Ways to access Multiple tablesin the same query.</h2>
+<ul>
+       <li>Sub-queries.</li>
+       <li>Implicit JOIN</li>
+       <li>JOIN operators(INNER JOIN, OUTER JOIN, etc)</li>
+</ul>
+<ul>
+       <li>Lets look at two tables</li>
+       <li>Employees</li>
+       <li>Departments</li>
+</ul>
+<p>To retrieve only the employee records that correspond to departments in the DEPARTMENTS table. </p>
 
 
 
