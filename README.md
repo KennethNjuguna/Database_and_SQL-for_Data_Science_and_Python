@@ -686,6 +686,26 @@ Hint - Bear in my the cost of rescuing one dog on day, is different from another
 <p><i>FROM table1, table2</i></p>
 <p><i>WHERE table1.column_name = table2.column_name;</i></p>
 
+# Using the EMPLOYEES table on the following Queries:-
+<p>Problem:</p>
+<p><i>Retrieve only the EMPLOYEES records that correspond to jobs in the JOBS table.</i></p>
+<p><i>select * from EMPLOYEES where JOB_ID IN (select JOB_IDENT from JOBS);</i></p>
+
+<p>Problem:</p>
+<p><i>Retrieve only the list of employees whose JOB_TITLE is Jr. Designer.</i></p>
+<p><i>select * from EMPLOYEES where JOB_ID IN (select JOB_IDENT from JOBS where JOB_TITLE= 'Jr. Designer');.</i></p>
+
+<p>Problem:</p>
+<p><i>Retrieve JOB information and who earn more than $70,000.</i></p>
+<p><i>select JOB_TITLE, MIN_SALARY,MAX_SALARY,JOB_IDENT from JOBS where JOB_IDENT IN (select JOB_ID from EMPLOYEES where SALARY > 70000 );</i></p>
+
+<p>Problem:</p>
+<p><i>Retrieve JOB information and list of employees whose birth year is after 1976.</i></p>
+<p><i>select JOB_TITLE, MIN_SALARY,MAX_SALARY,JOB_IDENT from JOBS where JOB_IDENT IN (select JOB_ID from EMPLOYEES where YEAR(B_DATE)>1976 );</i></p>
+
+<p>Problem:</p>
+<p><i>Retrieve JOB information and list of female employees whose birth year is after 1976.</i></p>
+<p><i>select JOB_TITLE, MIN_SALARY,MAX_SALARY,JOB_IDENT from JOBS  where JOB_IDENT IN (select JOB_ID from EMPLOYEES where YEAR(B_DATE)>1976 and SEX='F' );</i></p>
 
 
 
