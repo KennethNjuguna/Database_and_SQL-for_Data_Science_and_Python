@@ -740,17 +740,17 @@ Hint - Bear in my the cost of rescuing one dog on day, is different from another
 </ul>
 
 # SQL Cheat Sheet: FUNCTIONS and Implicit JOIN
-<p><b>COUNT</b></p>
+<p><b><u>COUNT</u></b></p>
 <p><i>Syntax:</i></p>
 <p><b>SELECT COUNT(column_name) FROM table_name WHERE condition;</b></p>
 <p><b>Description: </b>COUNT function returns the number of rows that matches a specified criterion.</p>
 <p>Example: <i>SELECT COUNT(dep_id) FROM employees;</i></p>
 
-<p><b>AVG</b></p>
+<p><b><u>AVG</u></b></p>
 <p><i>Syntax:</i></p>
 <p><b>SELECT AVG(column_name) FROM table_name WHERE condition;</b></p>
 <p><b>Description: </b>AVG function returns the average value of a numeric column.</p>
-p>Example: <i>SELECT AVG(salary) FROM employees;</i></p>
+<p>Example: <i>SELECT AVG(salary) FROM employees;</i></p>
 
 
 
