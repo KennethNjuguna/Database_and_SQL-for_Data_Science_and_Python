@@ -668,8 +668,23 @@ Hint - Bear in my the cost of rescuing one dog on day, is different from another
        <li>The result set will have more rows than in both tables.</li>
 </ul>
 # <h2></h2>Use additional operands to limit result set:- </h2>
+<p><i>select * from employees, departments</i></p>
+<p><i>where employees.DEP_ID =</i></p>
+<p><i>departments.DEPT_ID_DEP;</i></p>
 
+# <h2></h2>Use shorter aliases for table names:- </h2>
+<p><i>select * from employees E, departments D</i></p>
+<p><i>where E.DEP_ID = D.DEPT_ID_DEP;</i></p>
 
+# LAB on working with Multiple Tables.
+<p><b>How does an Implicit version of CROSS JOIN (also known as Cartesian Join) statement syntax look?</b></p>
+<p><i>SELECT column_name(s)</i></p>
+<p><i>FROM table1, table2;</i></p>
+
+<p><b>How does an Implicit version of INNER JOIN statement syntax look?</b></p>
+<p><i>SELECT column_name(s)</i></p>
+<p><i>FROM table1, table2</i></p>
+<p><i>WHERE table1.column_name = table2.column_name;</i></p>
 
 
 
