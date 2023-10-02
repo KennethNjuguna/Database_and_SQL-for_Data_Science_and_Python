@@ -653,6 +653,23 @@ Hint - Bear in my the cost of rescuing one dog on day, is different from another
 <p><i>(select DEPT_ID_DEP from departments</i></p>
 <p><i>where LOC_ID = 'L0002' );</i></p>
 
+<p>To retrieve the department ID and name for the employees who earn more than $70,000:</p>
+<p><i>select DEPT_ID_DEP, DEP_NAME from Departments</i></p>
+<p><i>where DEPT_ID_DEP IN</i></p>
+<p><i>(select DEP_ID from employees</i></p>
+<p><i>where SALARY > 70000);</i></p>
+
+# <h2>Accessing multiple tables with Implicit JOIN</h2>
+<p>Specify 2 tables in the FROM clause:</p>
+<p><i>select * from employees, departments;</i></p>
+<p>Above we arent using an explicit <b>JOIN</b> The result is a full join(or Cartesian join):</p>
+<ul>
+       <li>Every row in the first table is joined with every row in the second table.</li>
+       <li>The result set will have more rows than in both tables.</li>
+</ul>
+# <h2></h2>Use additional operands to limit result set:- </h2>
+
+
 
 
 
