@@ -752,6 +752,89 @@ Hint - Bear in my the cost of rescuing one dog on day, is different from another
 <p><b>Description: </b>AVG function returns the average value of a numeric column.</p>
 <p>Example: <i>SELECT AVG(salary) FROM employees;</i></p>
 
+<p><b><u>SUM</u></b></p>
+<p><i>Syntax:</i></p>
+<p><b>SELECT SUM(column_name) FROM table_name WHERE condition; </b></p>
+<p><b>Description:</b> SUM function returns the total sum of a numeric column.</p>
+<p>Example: <i>SELECT SUM(salary) FROM employees;</i></p>
+
+<p><b><u>MIN</u></b></p>
+<p><i>Syntax:</i></p>
+<p>SELECT MIN(column_name) FROM table_name WHERE condition;</p>
+<p><b>Description: </b> MIN function returns the smallest value of the SELECTed column.</p>
+<p>Example: <i>SELECT MIN(salary) FROM employees;</i></p>
+
+<p><b><u>MAX</u></b></p>
+<p><i>Syntax:</i></p>
+<p>SELECT MAX(column_name) FROM table_name WHERE condition;</p>
+<p><b>Description: </b>MAX function returns the largest value of the SELECTed column.</p>
+<p>Example: <i>SELECT MAX(salary) FROM employees;</i></p>
+
+<p><b><u>ROUND</u></b></p>
+<p><i>Syntax:</i></p>
+<p>SELECT ROUND(2number, decimals, operation) AS RoundValue;</p>
+<p><b>Description: </b>ROUND function rounds a number to a specified number of decimal places.</p>
+<p>Example: <i>SELECT ROUND(salary) FROM employees;</i></p>
+
+<p><b><u>LENGTH</u></b></p>
+<p><i>Syntax:</i></p>
+<p>SELECT LENGTH(column_name) FROM table;</p>
+<p><b>Description: </b>ROUND function rounds a number to a specified number of decimal places.</p>
+<p>Example: <i>SELECT LENGTH(f_name) FROM employees;</i></p>
+
+<p><b><u>UCASE</u></b></p>
+<p><i>Syntax:</i></p>
+<p>SELECT UCASE(column_name) FROM table;</p>
+<p><b>Description: </b>UCASE function that displays the column name in each table in uppercase.</p>
+<p>Example: <i>SELECT UCASE(f_name) FROM employees;</i></p>
+
+<p><b><u>DISTINCT</u></b></p>
+<p><i>Syntax:</i></p>
+<p>SELECT DISTINCT(column_name) FROM table;</p>
+<p><b>Description: </b>DISTINCT function is used to display data without duplicates.</p>
+<p>Example: <i>SELECT DISTINCT(UCASE(f_name)) FROM employees;</i></p>
+
+<p><b><u>DAY</u></b></p>
+<p><i>Syntax:</i></p>
+<p>SELECT DAY(column_name) FROM table;</p>
+<p><b>Description: </b>DAY function returns the day of the month for a given date.</p>
+<p>Example: <i>SELECT DAY(b_date) FROM employees where emp_id = 'E1002';</i></p>
+
+<p><b><u>CURRENT DATE</u></b></p>
+<p><i>Syntax:</i></p>
+<p>SELECT (CURRENT DATE - COLUMN) FROM table; </p>
+<p><b>Description: </b>CURRENT DATE is used to display the current date.This can be subtracted from the previous date to get the difference.</p>
+<p>Example: <i>SELECT YEAR(CURRENT DATE - b_date) As AGE, CURRENT_DATE, b_date FROM employees;</i></p>
+
+
+<p><b><u>Subquery</u></b></p>
+<p><i>Syntax:</i></p>
+<p>SELECT column_name [, column_name ] FROM table1 [, table2 ] WHERE column_name OPERATOR (SELECT column_name [, column_name ] FROM table1 [, table2 ] [WHERE]) </p>
+<p><b>Description: </b>Subquery is a query within another SQL query and embedded within the WHERE clause.
+A subquery is used to return data that will be used in the main query as a condition to further restrict the data to be retrieved.</p>
+<p>Example: <i>SELECT emp_id, fmame, lname, salary
+FROM employees
+where salary
+< (SELECT AVG(salary)
+FROM employees);</i></p>
+       
+<p>Example: <i>SELECT * FROM ( SELECT emp_id, f_name, l_name, dep_id FROM employees) AS emp4all;</i></p>
+
+<p>Example: <i> SELECT * FROM employees WHERE job_id IN (SELECT job_ident FROM jobs);;</i></p>
+
+<p><b><u>Implicit Inner Join</u></b></p>
+<p><i>Syntax:</i></p>
+<p>SELECT column_name(s) FROM table1, table2 WHERE table1.column_name = table2.column_name; </p>
+<p><b>Description: </b>Implicit Inner Join combines the two or more records but displays only matching values in both tables. Inner join applies only the specified columns.</p>
+<p>Example: <i>SELECT * FROM employees, jobs where employees.job_id = jobs.job_ident;</i></p>
+
+<p><b><u>Implicit Cross Join</u></b></p>
+<p><i>Syntax:</i></p>
+<p>SELECT column_name(s) FROM table1, table2; </p>
+<p><b>Description: </b>Implicit Cross Join defines as a Cartesian product where the number of rows in the first table multiplied by the number of rows in the second table.</p>
+<p>Example: <i>SELECT * FROM employees, jobs;</i></p>
+
+
 
 
 
