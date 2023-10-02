@@ -686,6 +686,8 @@ Hint - Bear in my the cost of rescuing one dog on day, is different from another
 <p><i>FROM table1, table2</i></p>
 <p><i>WHERE table1.column_name = table2.column_name;</i></p>
 
+# Accessing Multiple Tables with Sub-Queries
+
 # Using the EMPLOYEES table on the following Queries:-
 <p>Problem:</p>
 <p><i>Retrieve only the EMPLOYEES records that correspond to jobs in the JOBS table.</i></p>
@@ -707,6 +709,26 @@ Hint - Bear in my the cost of rescuing one dog on day, is different from another
 <p><i>Retrieve JOB information and list of female employees whose birth year is after 1976.</i></p>
 <p><i>select JOB_TITLE, MIN_SALARY,MAX_SALARY,JOB_IDENT from JOBS  where JOB_IDENT IN (select JOB_ID from EMPLOYEES where YEAR(B_DATE)>1976 and SEX='F' );</i></p>
 
+# Accessing Multiple Tables with Implicit Joins
+<p>Problem:</p>
+<p><i>Perform an implicit cartesian/cross join between EMPLOYEES and JOBS tables.</i></p>
+<p><i>select * from EMPLOYEES, JOBS;</i></p>
+
+<p>Problem:</p>
+<p><i>Retrieve only the EMPLOYEES records that correspond to jobs in the JOBS table.</i></p>
+<p><i>select * from EMPLOYEES, JOBS where EMPLOYEES.JOB_ID = JOBS.JOB_IDENT;</i></p>
+
+<p>Problem:</p>
+<p><i>Redo the previous query, using shorter aliases for table names.</i></p>
+<p><i>select * from EMPLOYEES E, JOBS J where E.JOB_ID = J.JOB_IDENT;</i></p>
+
+<p>Problem:</p>
+<p><i>Redo the previous query, but retrieve only the Employee ID, Employee Name and Job Title.</i></p>
+<p><i>select EMP_ID,F_NAME,L_NAME, JOB_TITLE from EMPLOYEES E, JOBS J where E.JOB_ID = J.JOB_IDENT;</i></p>
+
+<p>Problem:</p>
+<p><i>Redo the previous query, but specify the fully qualified column names with aliases in the SELECT clause.</i></p>
+<p><i></i></p>
 
 
 
