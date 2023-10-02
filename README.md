@@ -624,6 +624,8 @@ Hint - Bear in my the cost of rescuing one dog on day, is different from another
 <p><i>(select EMP_ID, F_NAME, L_NAME, DEP_ID</i></p>
 <p><i>from employees) AS EMP4ALL;</i></p>
 
+# Working with Multiple Tables
+
 
 
 
