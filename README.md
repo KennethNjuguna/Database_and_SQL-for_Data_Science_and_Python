@@ -739,6 +739,13 @@ Hint - Bear in my the cost of rescuing one dog on day, is different from another
        <li>Derived tables or table expressions are sub-queries where the outer query uses the results of the sub-query as a data source.</li>
 </ul>
 
+# SQL Cheat Sheet: FUNCTIONS and Implicit JOIN
+<p><b>COUNT</b></p>
+<p><i>Syntax:</i></p>
+<p><b>SELECT COUNT(column_name) FROM table_name WHERE condition;</b></p>
+<p><b>Description: </b>COUNT function returns the number of rows that matches a specified criterion.</p>
+<p>Example: <i>SELECT COUNT(dep_id) FROM employees;</i></p>
+
 
 
 
