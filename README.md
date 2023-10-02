@@ -637,7 +637,11 @@ Hint - Bear in my the cost of rescuing one dog on day, is different from another
        <li>Employees</li>
        <li>Departments</li>
 </ul>
-<p>To retrieve only the employee records that correspond to departments in the DEPARTMENTS table. </p>
+<p>To retrieve only the employee records that correspond to departments in the DEPARTMENTS table: </p>
+<p><i>select * from employees</i></p>
+<p><i>where DEP_ID IN</i></p>
+<p><i>( select DEPT_ID_DEP from departments); </i></p>
+
 
 
 
