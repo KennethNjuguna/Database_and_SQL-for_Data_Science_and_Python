@@ -835,6 +835,20 @@ FROM employees);</i></p>
 <p>Example: <i>SELECT * FROM employees, jobs;</i></p>
 
 # How to access Databases using Python
+<p>Benefits of using Python for database programming.</p>
+<p><ul><li>Python ecosystem</li>
+<ol>
+       <li>Numpy</li>
+       <li>Pandas</li>
+       <li>Matplotlib</li>
+       <li>Scipy</li>
+</ol>
+<li>Ease of use</li>
+<li>Portable</li>
+<li>Python supports relational databases. RDBMS</li>
+<li>To access a database we use the Python Database API(DB-API)</li>
+<li>Detailed documentation</li></ul></p>
+
 
 
 
