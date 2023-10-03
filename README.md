@@ -847,7 +847,27 @@ FROM employees);</i></p>
 <li>Portable</li>
 <li>Python supports relational databases. RDBMS</li>
 <li>To access a database we use the Python Database API(DB-API)</li>
-<li>Detailed documentation</li></ul></p>
+<li>Detailed documentation</li>
+<li>Notebooks like Matlab Notebooks and Jupyter notebooks make Python very popular.</li></ul></p>
+
+<p>What are Jupyter Notebooks?</p>
+<p>Open source notebooks that provide visualization,text and equations.</p>
+<p>Importance of using Jupyter Notebooks</p>
+<ul>
+       <li>Language of Choice example R, Python, Julia and Scala</li>
+       <li>Share notebooks through Sharebox, Github and Jupyter share</li>
+       <li>Interactive output- HTML images</li>
+       <li>Big data integration like Apache spark and Scala</li>
+       <li></li>
+       
+</ul>
+
+ # <h2>How python communicates to a database </h2>
+ <p>A jupter notebook being run by the user communicates to a database through API calls.</p>
+ <p><b>What is a SQL API</b></p>
+
+ ![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/3067a2b3-b029-4d9c-9ff1-ab05316f1da7)
+
 
 
 
