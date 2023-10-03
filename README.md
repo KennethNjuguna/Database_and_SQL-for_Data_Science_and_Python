@@ -834,6 +834,8 @@ FROM employees);</i></p>
 <p><b>Description: </b>Implicit Cross Join defines as a Cartesian product where the number of rows in the first table multiplied by the number of rows in the second table.</p>
 <p>Example: <i>SELECT * FROM employees, jobs;</i></p>
 
+# How to access Databases using Python
+
 
 
 
