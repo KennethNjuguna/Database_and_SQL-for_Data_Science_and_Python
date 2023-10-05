@@ -888,6 +888,23 @@ FROM employees);</i></p>
         <li>Code is more portable across databases.</li>
         <li>Broad range of many databases through python</li>
  </ul>
+ <p><b>Each database has it own DB-API</b></p>
+ <p><b>Below is a list of most known Databases</b></p>
+ 
+![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/a131bc0e-4eb7-4253-b101-d804d5d49a06)
+
+<p><b>Connection Objects</b></p>
+<ul>
+       <li>Database connections</li>
+       <li>Manage Transactions</li>
+</ul>
+
+<p><b></b>Cursor Objects</b></p>
+<ul>
+       <li>Database Queries</li>
+</ul>
+
+ 
 
  
 
