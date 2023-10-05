@@ -881,7 +881,13 @@ FROM employees);</i></p>
 
  ![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/d9de6954-fbf0-499d-b6c7-5d08f15c2669)
 
- 
+ # <h2>Advantages of using DB-API functions.</h2>
+ <ul>
+        <li>Easy to implement and understand.</li>
+        <li>Achieves consistency.</li>
+        <li>Code is more portable across databases.</li>
+        <li>Broad range of many databases through python</li>
+ </ul>
 
  
 
