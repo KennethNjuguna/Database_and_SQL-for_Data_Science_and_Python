@@ -868,7 +868,8 @@ FROM employees);</i></p>
 
  ![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/3067a2b3-b029-4d9c-9ff1-ab05316f1da7)
 
- <api>
+ <p>It starts with a number of calls to pass procedures and handle errors.</p>
+ 
 
  
 
