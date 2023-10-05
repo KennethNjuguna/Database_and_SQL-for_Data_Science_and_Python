@@ -875,7 +875,15 @@ FROM employees);</i></p>
 
  ![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/953bbc6d-91a0-4c7e-95f4-b77485dea24e)
 
- # Writing code using DB API
+ # Writing code using DB-APIs
+ <p>How to write code through DB-APIs, A user writes python program using Jupyter notebooks, DB APIs functions are written to communicate with the RDBMS i.e IBM DB, MySQL, SQL etc</p>
+ <p>You must learn all the DB-API functions to communicate with any Database.</p>
+
+ ![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/d9de6954-fbf0-499d-b6c7-5d08f15c2669)
+
+ 
+
+ 
 
 
  
