@@ -875,6 +875,8 @@ FROM employees);</i></p>
 
  ![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/953bbc6d-91a0-4c7e-95f4-b77485dea24e)
 
+ # Writing code using DB API
+
 
  
 
