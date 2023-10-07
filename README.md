@@ -904,6 +904,8 @@ FROM employees);</i></p>
        <li>Database Queries</li>
 </ul>
 
+# Creating tables, loading data and querying data.
+
  
 
  
