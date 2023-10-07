@@ -905,7 +905,13 @@ FROM employees);</i></p>
 </ul>
 
 # Creating tables, loading data and querying data.
-
+<p>The parameters for the function are:-</p>
+<ul>
+       <li>Connection</li>
+       <li>Statement</li>
+       <li>Options.</li>
+</ul>
+ 
  
 
  
