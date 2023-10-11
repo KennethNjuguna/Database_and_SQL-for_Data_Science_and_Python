@@ -917,6 +917,9 @@ FROM employees);</i></p>
 
 ![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/1dd1e4ee-b955-40a8-a53a-14213251b2c8)
 
+# Introducing SQL magic
+<p><b>Jupyter notebooks</b> have a concept of Magic commands that can simplify working with Python, and are particularly useful for data analysis. Your notebooks can have two types of magic commands:</p>
+
 
 
  
