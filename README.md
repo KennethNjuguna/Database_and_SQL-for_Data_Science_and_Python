@@ -905,12 +905,15 @@ FROM employees);</i></p>
 </ul>
 
 # Creating tables, loading data and querying data.
+<p>We will use the IBM DB 2</p>
+<p><b>It uses the ibm_db.exec_immediate()</b></p>
 <p><b></b>The parameters for the function are:-</b></p>
 <ul>
        <li>Connection.</li>
        <li>Statement.</li>
        <li>Options.</li>
 </ul>
+
  
  
 
