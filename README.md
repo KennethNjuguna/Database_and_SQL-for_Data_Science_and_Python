@@ -919,6 +919,10 @@ FROM employees);</i></p>
 
 # Introducing SQL magic
 <p><b>Jupyter notebooks</b> have a concept of Magic commands that can simplify working with Python, and are particularly useful for data analysis. Your notebooks can have two types of magic commands:</p>
+<ul>
+       <li><b>Cell magics:</b> start with a double %% sign and apply to the entire cell</li>
+       <li><b>Line magics:</b> start with a single % (percent) sign and apply to a particular line in a cell</li>
+</ul>
 
 
 
