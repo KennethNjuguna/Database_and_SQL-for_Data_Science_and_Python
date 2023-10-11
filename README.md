@@ -913,6 +913,11 @@ FROM employees);</i></p>
        <li>Statement.</li>
        <li>Options.</li>
 </ul>
+# <h2>Python code to create a table in IBM DB</h2>
+
+![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/1dd1e4ee-b955-40a8-a53a-14213251b2c8)
+
+
 
  
  
