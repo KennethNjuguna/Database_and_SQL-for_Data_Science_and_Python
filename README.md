@@ -925,6 +925,14 @@ FROM employees);</i></p>
 </ul>
 
 # Analyzing data with Python
+# <h2>Load csv file into DB2 on cloud </h2>
+
+<p>We follow the following process Source, Target, Define and Finalize</p>
+
+![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/ea4e1135-d6c0-4613-bb42-c325ffb0b86f)
+
+
+
 
 
 
