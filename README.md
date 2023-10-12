@@ -935,6 +935,25 @@ FROM employees);</i></p>
 
 ![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/2874ed6c-4a70-4b41-b1b8-90ec65f37c47)
 
+# Summary
+<ul>
+       <li>You can access a database from a language like Python by using the appropriate API. Examples include ibm_db API for IBM DB2, psycopg2 for ProstgreSQL, and dblib API                      for SQL Server.</li>
+       <li>DB-API is Python's standard API for accessing relational databases. It allows you to write a single program that works with multiple kinds of relational databases instead               of writing a separate program for each one.</li>
+       <li>The DB_API  connect constructor creates a connection to the database and returns a Connection Object, which is then used by the various connection methods.</li>
+       <li>The connection methods are:</li>
+
+       <p>The cursor() method, which returns a new cursor object using the connection.</p>
+       <p>The commit() method, which is used to commit any pending transaction to the database.</p>
+       <p>The rollback() method, which causes the database to roll-back to the start of any pending transaction.</p>
+       <p>The close() method, which is used to close a database connection. </p>
+</ul>
+
+       
+<p>You can use SQL Magic commands to execute queries more easily from Jupyter Notebooks.</p>
+<p>Magic commands have the general format %sql select * from tablename.</p>
+<p>Cell magics start with a double %% (percent) sign and apply to the entire cell.</p>
+<p>Line magics start with a single % (percent) sign and apply to a particular line in a cell.</p>
+
 
 
 
