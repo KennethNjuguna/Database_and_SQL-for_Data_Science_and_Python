@@ -924,6 +924,8 @@ FROM employees);</i></p>
        <li><b>Line magics:</b> start with a single % (percent) sign and apply to a particular line in a cell</li>
 </ul>
 
+# Analyzing data with Python
+
 
 
 
