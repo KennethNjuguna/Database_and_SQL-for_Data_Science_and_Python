@@ -931,7 +931,9 @@ FROM employees);</i></p>
 
 ![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/ea4e1135-d6c0-4613-bb42-c325ffb0b86f)
 
+ <p>Plot sodium values for the different categories</p>
 
+![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/2874ed6c-4a70-4b41-b1b8-90ec65f37c47)
 
 
 
