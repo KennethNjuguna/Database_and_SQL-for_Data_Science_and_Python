@@ -957,6 +957,11 @@ FROM employees);</i></p>
 # Working with Real Databases
 <p>Most datasets are made of CSV attributes and elements are separated by a comma</p>
 
+# Example of a CSV File
+
+![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/0792f533-c0d5-40a9-969d-65ee10fe1525)
+
+
 
 
 
