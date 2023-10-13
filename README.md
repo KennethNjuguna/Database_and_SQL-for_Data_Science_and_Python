@@ -955,6 +955,7 @@ FROM employees);</i></p>
 <p>Line magics start with a single % (percent) sign and apply to a particular line in a cell.</p>
 
 # Working with Real Databases
+<p>Most datasets are made of CSV attributes and elements are separated by a comma</p>
 
 
 
