@@ -961,7 +961,7 @@ FROM employees);</i></p>
 
 ![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/0792f533-c0d5-40a9-969d-65ee10fe1525)
 
-
+<p>Every table has a row that has name of attributes for each column.</p>
 
 ![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/573a5514-1177-43ad-bfeb-d3533c90c682)
 
