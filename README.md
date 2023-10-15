@@ -963,6 +963,11 @@ FROM employees);</i></p>
 
 
 
+![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/573a5514-1177-43ad-bfeb-d3533c90c682)
+
+
+
+
 
 
  
