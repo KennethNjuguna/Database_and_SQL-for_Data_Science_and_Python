@@ -990,6 +990,12 @@ FROM employees);</i></p>
 <p>Query system catalog to get a list of tables and their properties</p>
 <p><i>select * from syscat.tables</i></p>
 
+# <h2>Getting Table properties.</h2> 
+![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/23bbe165-b5f4-4745-a99b-48f9cda9a6a3)
+
+
+
+
 
 
 
