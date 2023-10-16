@@ -980,6 +980,14 @@ FROM employees);</i></p>
 <p>Example:- </p>
 <p><b><i>select * from census_data LIMIT 3</i></b></p>
 
+# Getting a list Tables and Column Details in a database
+<p>A database may contain many tables example dog, dogs or four legged mammals.</p>
+<p>Getting list of all tables is different in most tables as shown on the snapshot below:-</p>
+
+![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/1c176110-a728-4c33-8fc7-dd42a5341a5f)
+
+
+
 
 
 
