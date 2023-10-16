@@ -986,7 +986,9 @@ FROM employees);</i></p>
 
 ![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/1c176110-a728-4c33-8fc7-dd42a5341a5f)
 
-
+<p><b>Getting a list of tables in a database</b></p>
+<p>Query system catalog to get a list of tables and their properties</p>
+<p><i>select * from syscat.tables</i></p>
 
 
 
