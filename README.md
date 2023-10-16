@@ -968,6 +968,17 @@ FROM employees);</i></p>
 
 ![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/573a5514-1177-43ad-bfeb-d3533c90c682)
 
+# <h2>Querying column names with spaces and special characters.</h2>
+<p>Always substitute special characters with underscores within name of columns with special characters and spaces as shown below:-</p>
+
+![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/a2d1ef73-f03d-465b-adbe-f5375a9360a2)
+
+![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/1745f0a0-40b2-4496-8901-b08f3efe346e)
+
+# <h2>Restricting the number of rows retrieved </h2>
+<p>To get a sample or look at a small set of rows, limit the result set by using the limit clause. </p>
+<p>Example:- </p>
+<p><b><i>select * from census_data LIMIT 3</i></b></p>
 
 
 
