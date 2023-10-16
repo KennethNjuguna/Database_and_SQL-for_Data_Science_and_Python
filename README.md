@@ -958,12 +958,18 @@ FROM employees);</i></p>
 <p>Most datasets are made of CSV attributes and elements are separated by a comma</p>
 
 # Example of a CSV File
+<p>Contains data values separated by commas ','</p>
 
 ![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/0792f533-c0d5-40a9-969d-65ee10fe1525)
 
 <p>Every table has a row that has name of attributes for each column.</p>
 
+<p><b>Querying column names with both (lower and upper) cases. </b></p>
+
 ![image](https://github.com/KennethNjuguna/Database_and_SQL-for_Data_Science_and_Python/assets/97665556/573a5514-1177-43ad-bfeb-d3533c90c682)
+
+
+
 
 
 
